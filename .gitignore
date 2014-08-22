@@ -1,2 +1,11 @@
 .sass-cache
 public
+bower_components
+node_modules
+resources/css
+resources/js/libs.js
+resources/js/libs.min.js
+resources/js/modules.js
+resources/js/modules.min.js
+resources/js/plugins.js
+resources/js/plugins.min.js
