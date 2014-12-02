@@ -2,9 +2,14 @@
 @import "compass";
 @import "compass/css3";
 
+//Normalizing CSS [ https://speakerdeck.com/csswizardry/normalising-designs-for-better-quality-css?slide=49 ]
 html{
     font-size:16px;
     line-height:24px;
+}
+//Lobotomized Owl [ http://alistapart.com/article/axiomatic-css-and-lobotomized-owls ]
+* + * {
+	margin-top: 1.5em;
 }
 /* FOUNDATION */
 // @import "../bower_components/foundation/foundation";
